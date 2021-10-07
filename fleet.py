@@ -6,10 +6,12 @@ class Fleet:
         self.robots = []
 
         
-    def robot_fleet(self):
-        
-        self.robots.append('bot1')
-        self.robots.append('bot2')
-        self.robots.append('bot3')
+    def create_fleet(self):
+        bot1 = Robot("XYZ")
+        bot2 = Robot("Vince")
+        bot3 = Robot("Doom")
+        self.robots.append(bot1)
+        self.robots.append(bot2)
+        self.robots.append(bot3)
     
     

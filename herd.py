@@ -11,4 +11,4 @@ class Herd:
         dino3 = Dinosaur("Godzilla", 40)
         self.dinosaurs.append(dino1)
         self.dinosaurs.append(dino2)
-        self.dinosaurs.append(dino1)
+        self.dinosaurs.append(dino3)

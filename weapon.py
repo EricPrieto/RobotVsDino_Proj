@@ -3,19 +3,18 @@ class Weapon:
         self.weapon_name = ''
         self.attack_power = 0
 
-    def weapon_selection(self, selection):
-        if selection == "alpha":
+    def weapon_selection(self, selection):        
+        if selection == "1":
             self.weapon_name = "gatling gun "
-            self.attack_power = 10
-        elif selection == "bravo":
-            self.weapon_name = "pac-3"
             self.attack_power = 20
-        elif selection == "charlie":
+        elif selection == "2":
+            self.weapon_name = "pac-3"
+            self.attack_power = 25
+        elif selection == "3":
             self.weapon_name = "missel"
-            self.attack_power = 30
+            self.attack_power = 50
         
     
-    def weapon_status (self):
-        print (f"Your weapon is {self.weapon_name} and has a power of {self.attack_power}")
+    
 
 
