@@ -7,6 +7,7 @@ class Fleet:
 
         
     def robot_fleet(self):
+        
         self.robots.append('bot1')
         self.robots.append('bot2')
         self.robots.append('bot3')
